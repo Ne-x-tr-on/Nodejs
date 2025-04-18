@@ -1,18 +1,13 @@
 {
   "dependencies": {
-    "nodemon": "^3.1.9"
+    "date-fns": "^4.1.0",
+    "uuid": "^11.1.0"
   },
-  "name": "0032",
-  "version": "1.0.0",
-  "main": "index.js",
-  "devDependencies": {},
   "scripts": {
-    "test": " fire"
+    "start": "node index",
+    "dev": "nodemon index"
   },
-  "keywords": [
-    "key"
-  ],
-  "author": "nex",
-  "license": "ISC",
-  "description": ""
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
